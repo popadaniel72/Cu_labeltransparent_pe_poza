@@ -26,5 +26,12 @@ namespace Cu_labeltransparent_pe_poza
         {
             label1.Parent = pictureBox1;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            wmp.URL = "sabaton.mp3";
+            wmp.Ctlcontrols.fastForward();
+            wmp.Ctlcontrols.play();
+        }
     }
 }
