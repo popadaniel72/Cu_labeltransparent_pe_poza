@@ -25,7 +25,6 @@ namespace Cu_labeltransparent_pe_poza
         private void Form1_Load(object sender, EventArgs e)
         {
             label1.Parent = pictureBox1;
-
         }
     }
 }
